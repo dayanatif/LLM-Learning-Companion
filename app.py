@@ -31,7 +31,6 @@ Here is the code:
     input_variables=["code"]
 )
 
-# Create LCEL chains using the | operator
 general_chain = general_prompt | llm | StrOutputParser()
 code_chain = code_prompt | llm | StrOutputParser()
 
