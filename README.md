@@ -1,15 +1,26 @@
-# 🧑‍🏫 LLM Learning Companion
+# LLM Learning Companion 🎓🤖
 
-An interactive learning assistant powered by **LangChain Expression Language (LCEL)** and **Google Gemini LLM**.  
-This project helps users ask questions, get explanations, and explore topics in a conversational way — acting like a personalized AI tutor.  
+An interactive **AI-powered tutor** built with **Streamlit**, **LangChain**, and **Google Gemini**.  
+This app allows learners to explore concepts, ask questions, and receive **LLM-generated explanations** in real-time.  
+
+---
+
+## 🚀 Live Demo
+👉 [LLM Learning Companion on Streamlit](https://llm-learning-companion.streamlit.app/)
 
 ---
 
-## 🚀 Features
-- 💡 Natural language Q&A powered by **Google Gemini LLM**  
-- 🔗 Built with **LangChain Expression Language (LCEL)**  
-- 🌐 Simple **Streamlit web interface** for interaction  
-- ⚡ `.env` file support for secure API key management  
-- 📦 Predefined knowledge sources and ability to expand  
+## 📂 Features
+- 💡 Ask questions and receive **detailed AI explanations**  
+- 🔍 Powered by **Google Gemini LLM** through LangChain  
+- 🌐 Simple and interactive **Streamlit UI**  
+- 🔑 Secure API key handling using **Streamlit Secrets**  
+- 🖥️ Deployable on **Streamlit Cloud**  
 
 ---
+
+## ⚙️ Installation (Local Setup)
+Clone this repo:
+```bash
+git clone https://github.com/dayanatif/LLM-Learning-Companion.git
+cd LLM-Learning-Companion
